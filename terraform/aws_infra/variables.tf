@@ -6,7 +6,7 @@ variable "secret_key" {
 }
 
 variable "instance_type" {
-        default = "t2.micro"
+        default = "t2.nano"
 }
 
 variable "number_of_instances" {
