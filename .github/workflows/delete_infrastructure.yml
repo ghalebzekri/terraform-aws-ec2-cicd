@@ -17,7 +17,7 @@ on:
 
 jobs:
   delete:
-    name: Delete AWS infrastructure (VPC, EKS, Node Group, ec2, etc.)
+    name: Delete AWS infrastructure (VPC, EC2, S3, etc.)
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
