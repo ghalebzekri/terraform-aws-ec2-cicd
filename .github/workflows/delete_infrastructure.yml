@@ -11,7 +11,7 @@ on:
         required: true
         default: 'eu-west-3'
       NAME_PREFIX:
-        description: 'Prefix name for resources to be delete: s3 bucket, vpc, eks, ec2, etc.'
+        description: 'Prefix name for resources to be delete: s3 bucket, vpc, ec2, etc.'
         required: true
         default: 'ec2'
 
