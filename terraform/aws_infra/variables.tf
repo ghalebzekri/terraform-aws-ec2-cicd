@@ -10,13 +10,13 @@ variable "number_of_instances" {
 variable "region" {
   description = "AWS region"
   type        = string
-  default     = "eu-west-3"
+  default     = "us-east-1"
 }
 
 variable "name_prefix" {
   description = "Objects name prefix to use for deployment"
   type        = string
-  default     = "cley"
+  default     = "gzekri"
 }
 
 # Configure public key to enable ssh access
